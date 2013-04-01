@@ -6,10 +6,10 @@
 		<link rel="stylesheet" href="cmh-li-tree.css" media="all">
 	</head>
 	<body>
-		<ul id="testID">
-			<li class="subset">
-				<h2>Header 1</h2>
-				<ul class="collapse open">
+		<ul id="testID" class="litree">
+			<li class="tree_subset">
+				<h2 class="tree_header">Header 1</h2>
+				<ul class="tree_collapse tree_open">
 					<li>A</li>
 					<li>B</li>
 					<li>C</li>
@@ -17,28 +17,28 @@
 					<li>E</li>
 				</ul>
 			</li>
-			<li class="subset">
-				<h2>Header 2</h2>
-				<ul class="collapse">
+			<li class="tree_subset">
+				<h2 class="tree_header">Header 2</h2>
+				<ul class="tree_collapse">
 					<li>A</li>
 					<li>B</li>
 					<li>C</li>
 					<li>D</li>
 					<li>
-						<h2>Header 3</h2>
-						<ul class="collapse open">
+						<h2 class="tree_header">Header 3</h2>
+						<ul class="tree_collapse tree_open">
 							<li>A</li>
 							<li>B</li>
 							<li>C</li>
 							<li>D</li>
 							<li>
-								<h2>Header 4</h2>
-								<ul class="collapse">
+								<h2 class="tree_header">Header 4</h2>
+								<ul class="tree_collapse">
 									<li>A</li>
 									<li>B</li>
 									<li>
-										<h2>Header 5</h2>
-										<ul class="collapse open">
+										<h2 class="tree_header">Header 5</h2>
+										<ul class="tree_collapse tree_open">
 											<li>A</li>
 											<li>B</li>
 											<li>C</li>
@@ -55,7 +55,7 @@
 				</ul>
 			</li>
 		</ul>
-		<button id="collapse_rows">Collapse Rows</button>
+		<button id="tree_collapse_rows">tree_collapse Rows</button>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<script type="text/javascript" src="cmh-li-tree.js"></script>
 	</body>
