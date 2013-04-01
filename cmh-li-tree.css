@@ -1,0 +1,22 @@
+.tree_root{padding:6px 0 6px 0;width:100%;min-height:25px;font-family:verdana;}
+.tree_root:nth-child(odd){background-color:#ffffff;}
+.tree_root:nth-child(even){background-color:#e9e9e9;}
+.tree_trunk{padding:3px 0 3px 0;margin:0;border-left:2px solid #333;}
+.tree_branch{padding:3px 0 3px 0;margin:0 0 0 20px;border-left:2px solid #999;}
+.tree_leaf{padding:3px 0 3px 0;margin:0 0 0 20px;border-left:2px solid #999;}
+.tree_branch h3{margin:0;padding:0;}
+
+/*
+.primary_row{padding:3px 0 3px 0;margin:0;background-color:#333}
+.primary_row_sub{padding:3px 0 3px 0;margin:0 0 0 20px;display:none;background-color:#555}
+.secondary_row{padding:3px 0 3px 0;margin:0 0 0 40px;display:none;background-color:#999}
+.secondary_row_sub{padding:3px 0 3px 0;margin:0 0 0 60px;display:none;background-color:#000}
+*/
+
+
+ul{list-style:none;margin:0;padding:0;overflow:hidden;}
+li{list-style:none;margin:0 0 2px 10px;padding:0;border-left:2px solid #999;overflow:hidden;}
+.collapse{height:0px;}
+.li_odds{background-color:#ffffff;}
+.li_evens{background-color:#E9E9E9;}
+li h2{margin:0 0 0 10px;padding:2px 0 0 0;cursor:pointer;}
